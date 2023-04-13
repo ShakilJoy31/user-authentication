@@ -1,0 +1,22 @@
+.signUpButton{
+    transition-duration: 200ms;
+    background-color: black;
+    color: white;
+}
+
+
+.signUpButton:hover{
+    box-shadow: 2px 2px 15px 5px black;
+    transition-duration: 200ms;
+    background-color: white;
+    color: black;
+}
+
+.spinner{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 7px solid #247f9e;
+    border-top-color: white;
+    animation: spin 1s ease-in-out infinite;
+}
